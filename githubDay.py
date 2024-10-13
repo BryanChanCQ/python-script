@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 url = 'https://github.com/trending?since=daily&spoken_language_code=zh'
-message_notion_url = 'https://open.feishu.cn/open-apis/bot/v2/hook/ed6bf4cb-8402-4e40-915b-e2c6fd6a498f'
+message_notion_url = 'https://open.feishu.cn/open-apis/bot/v2/hook/c458dfdb-3b1b-438b-a27a-f812a352d5f9'
 resp = requests.get(url=url)
 if(resp.status_code != 200):
     print('shibai')
